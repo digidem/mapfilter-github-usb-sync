@@ -1,0 +1,29 @@
+{
+  "name": "mapfilter-github-usb-sync",
+  "version": "0.0.0",
+  "description": "Syncs mapfilter data from the latest github image to a usb device and vice-versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/digidem/mapfilter-github-usb-sync"
+  },
+  "author": "Kelly Dunn (defaultstring@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digidem/mapfilter-github-usb-sync/issues"
+  },
+  "homepage": "https://github.com/digidem/mapfilter-github-usb-sync",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "convert-string": "^0.1.0",
+    "file-move": "0.0.3",
+    "follow-redirects": "0.0.3",
+    "mkdir": "0.0.2",
+    "mkpath": "^0.1.0",
+    "request": "^2.53.0",
+    "underscore": "^1.7.0",
+  }
+}
